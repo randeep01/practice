@@ -2,8 +2,8 @@ package dp;
 
 public class LCS {
     public static void main(String args[]) {
-        String s1 = "randeep";
-        String s2 = "singh";
+        String s1 = "randeepsingh";
+        String s2 = "mandeep";
 
         int n = s1.length();
         int m = s2.length();
@@ -20,6 +20,9 @@ public class LCS {
         System.out.println(val);
 
         val = lcsMemo(s1, s2, n, m, memo);
+        System.out.println(val);
+
+        val = lcsDP(s1, s2, n, m);
         System.out.println(val);
     }
 
@@ -50,5 +53,26 @@ public class LCS {
             memo[n][m] = Math.max(lcsMemo(s1, s2, n, m - 1, memo), lcsMemo(s1, s2, n - 1, m, memo));
             return memo[n][m];
         }
+    }
+
+    public static int lcsDP(String s1, String s2, int n, int m) {
+        int dp[][] = new int[n + 1][m + 1];
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= m; j++) {
+                if (i == 0 || j == 0) {
+                    dp[i][j] = 0;
+                }
+
+                else {
+                    if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
+                        dp[i][j] = 1 + dp[i - 1][j - 1];
+                    } else {
+                        dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                    }
+                }
+
+            }
+        }
+        return dp[n][m];
     }
 }
