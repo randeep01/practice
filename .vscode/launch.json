@@ -1,0 +1,141 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PalindromicPartition",
+            "request": "launch",
+            "mainClass": "dp.PalindromicPartition",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch NSR",
+            "request": "launch",
+            "mainClass": "stack.NSR",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch NGR",
+            "request": "launch",
+            "mainClass": "stack.NGR",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mcm",
+            "request": "launch",
+            "mainClass": "dp.Mcm",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LPSInsertions",
+            "request": "launch",
+            "mainClass": "dp.LPSInsertions",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PatternSequenceMatching",
+            "request": "launch",
+            "mainClass": "dp.PatternSequenceMatching",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestRepeatingSubsequence",
+            "request": "launch",
+            "mainClass": "dp.LongestRepeatingSubsequence",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintSCS",
+            "request": "launch",
+            "mainClass": "dp.PrintSCS",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinDeletionPalindromic",
+            "request": "launch",
+            "mainClass": "dp.MinDeletionPalindromic",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestPalindromicSubsequence",
+            "request": "launch",
+            "mainClass": "dp.LongestPalindromicSubsequence",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A2B",
+            "request": "launch",
+            "mainClass": "dp.A2B",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestSuperSequence",
+            "request": "launch",
+            "mainClass": "dp.ShortestSuperSequence",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintLongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "dp.PrintLongestCommonSubsequence",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestCommonSubstring",
+            "request": "launch",
+            "mainClass": "dp.LongestCommonSubstring",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LCS",
+            "request": "launch",
+            "mainClass": "dp.LCS",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinCoinChange",
+            "request": "launch",
+            "mainClass": "dp.MinCoinChange",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "name": "(lldb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "processId": "${command:pickProcess}",
+            "MIMode": "lldb"
+        },
+        {
+            "name": "clang++ - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+        }
+    ]
+}
