@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestSubStringWithKUniqueChars",
+            "request": "launch",
+            "mainClass": "sliding_window.LongestSubStringWithKUniqueChars",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockSpan",
+            "request": "launch",
+            "mainClass": "stack.StockSpan",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestSubArrayOfSumK",
+            "request": "launch",
+            "mainClass": "sliding_window.LargestSubArrayOfSumK",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNegativeNumber",
+            "request": "launch",
+            "mainClass": "sliding_window.FirstNegativeNumber",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSumInSlidingWindow",
+            "request": "launch",
+            "mainClass": "sliding_window.MaxSumInSlidingWindow",
+            "projectName": "practice_7a9ce974"
+        },
+        {
+            "type": "java",
             "name": "Launch PalindromicPartition",
             "request": "launch",
             "mainClass": "dp.PalindromicPartition",
